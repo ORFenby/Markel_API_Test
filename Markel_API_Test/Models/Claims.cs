@@ -16,16 +16,5 @@ namespace Markel_API_Test.Models
         [Column(TypeName = "decimal(15,2)")]
         public decimal IncurredLoss { get; set;}
         public bool Closed { get; set;}
-
-        //public Claims(string ucr, int companyId, DateTime claimDate, DateTime lossDate, string assuredName, decimal incurredLoss, bool closes)
-        //{
-        //    UCR = ucr;
-        //    CompanyId = companyId;
-        //    ClaimDate = claimDate;
-        //    LossDate = lossDate;
-        //    AssuredName = assuredName;
-        //    IncurredLoss = incurredLoss;
-        //    Closes = closes;
-        //}
     }
 }
